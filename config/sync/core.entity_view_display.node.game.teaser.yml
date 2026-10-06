@@ -1,0 +1,48 @@
+uuid: 2ece308a-6def-4410-98f1-08115706b720
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.game.field_cover_image
+    - field.field.node.game.field_description
+    - field.field.node.game.field_genre
+    - field.field.node.game.field_platform
+    - field.field.node.game.field_publisher
+    - field.field.node.game.field_release_date
+    - node.type.game
+  module:
+    - image
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.game.teaser
+targetEntityType: node
+bundle: game
+mode: teaser
+content:
+  field_cover_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_description: true
+  field_genre: true
+  field_platform: true
+  field_publisher: true
+  field_release_date: true

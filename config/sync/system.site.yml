@@ -2,7 +2,7 @@ _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
 langcode: en
 uuid: 5b51ad0b-cf02-4422-8d5c-59b333586310
-name: 'Drush Site-Install'
+name: GameVault
 mail: admin@example.com
 slogan: ''
 page:

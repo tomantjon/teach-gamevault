@@ -1,0 +1,9 @@
+uuid: 43f19fff-33ba-4793-ae5d-0a19a0a3d8fa
+langcode: en
+status: true
+dependencies: {  }
+name: Platform
+vid: platform
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,19 @@
+uuid: 47ed6ae5-a8fb-46eb-b131-373e90ce028c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publisher
+    - node.type.game
+id: node.game.field_publisher
+field_name: field_publisher
+entity_type: node
+bundle: game
+label: Publisher
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
